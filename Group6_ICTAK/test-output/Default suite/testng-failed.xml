@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ict.testcases.Admin_CorporateTC">
+      <class name="com.ict.testcases.MembershipsTC">
         <methods>
-          <include name="tbl_iterate"/>
           <include name="initialization"/>
+          <include name="showMenu"/>
+          <include name="tearUp"/>
           <include name="tearDown"/>
-          <include name="admin_login"/>
+          <include name="Academic"/>
         </methods>
-      </class> <!-- com.ict.testcases.Admin_CorporateTC -->
+      </class> <!-- com.ict.testcases.MembershipsTC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
